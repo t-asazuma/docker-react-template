@@ -20,7 +20,6 @@ yarn init -y
 
 ### typescript、webpackの導入
 ```shell
-yarn init
 yarn -D add webpack webpack-cli typescript ts-loader
 yarn -D add webpack-dev-server
 yarn -D add clean-webpack-plugin html-webpack-plugin
