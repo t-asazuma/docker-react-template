@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build:
+      context: ./docker/node
+    volumes:
+      - ./project/app:/usr/src/app
+    tty: true
+    environment:
+      - NODE_ENV=development
+    ports:
+      - "9000:9000"

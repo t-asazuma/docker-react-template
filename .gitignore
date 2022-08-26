@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+
+# idea
+.idea
+*.iml
+
+# node
+dist
+build
+node_modeuls/
+
+# env
+.env
+.env.*
